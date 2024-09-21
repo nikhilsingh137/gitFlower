@@ -1,0 +1,61 @@
+.divide {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+
+  .text {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #ddd;
+    padding: 15px 20px;
+    align-items: center;
+    h2 {
+      font-size: 17px;
+      color: #444;
+      font-weight: 500;
+      margin: 0;
+      padding: 0;
+    }
+    h3 {
+      font-size: 19px;
+      color: #666;
+      font-weight: 500;
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+    }
+  }
+  .paragraph {
+    display: block;
+    text-align: center;
+    height: 100%;
+    p {
+      font-size: 17px;
+      color: #666;
+      font-weight: 500;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+  }
+  .button {
+    display: block;
+    padding: 10px 20px;
+    a {
+      background: #ff0000;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      height: 50px;
+      border-radius: 10px;
+      font-size: 17px;
+      color: #fff;
+      font-weight: 500;
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.Side {
+  display: block;
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: solid 2px #ddd;
+    color: #444;
+    font-weight: 500;
+    padding: 12px 20px;
+    display: block;
+    &.active {
+      background: #ddd;
+      color: #ff0000;
+    }
+  }
+}

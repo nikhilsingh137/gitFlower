@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/gitFlower/static/css/main.345186fd.css",
-    "main.js": "/gitFlower/static/js/main.b09c7454.js",
+    "main.js": "/gitFlower/static/js/main.fc593d4d.js",
     "static/media/flowershop.jpg": "/gitFlower/static/media/flowershop.74c47bb96a7db714aa89.jpg",
     "index.html": "/gitFlower/index.html",
     "main.345186fd.css.map": "/gitFlower/static/css/main.345186fd.css.map",
-    "main.b09c7454.js.map": "/gitFlower/static/js/main.b09c7454.js.map"
+    "main.fc593d4d.js.map": "/gitFlower/static/js/main.fc593d4d.js.map"
   },
   "entrypoints": [
     "static/css/main.345186fd.css",
-    "static/js/main.b09c7454.js"
+    "static/js/main.fc593d4d.js"
   ]
 }

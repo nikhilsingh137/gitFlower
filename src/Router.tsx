@@ -38,7 +38,7 @@ const router = createHashRouter([
     ),
   },
   {
-    path: "/about",
+    path: "/gitFlower/about",
     element: <>Hello</>,
   },
 ]);

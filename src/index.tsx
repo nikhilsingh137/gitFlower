@@ -7,7 +7,6 @@ import Header from "./common-component/Header";
 import { RouterProvider } from "react-router-dom";
 import router from "./Router";
 import Footer from "./component/Footer";
-import Navbar from "./Navbar";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -16,7 +15,6 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <Header />
-      <Navbar />
       <RouterProvider router={router} />
       <Footer />
     </Provider>

@@ -3,16 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Redirecting...</title>
+    <title>Page Not Found</title>
+    <meta http-equiv="refresh" content="3;url=/" />
   </head>
   <body>
+    <h1>Redirecting...</h1>
+    <p>
+      If you are not redirected automatically, follow this
+      <a href="/">link to the homepage</a>.
+    </p>
+
     <script type="text/javascript">
-      var redirectTo = window.location.pathname;
-      if (!redirectTo.startsWith("/RealState-github")) {
-        window.location.href = "/RealState-github" + redirectTo;
-      } else {
-        window.location.href = redirectTo;
-      }
+      (function () {
+        // Get the current pathname (route that caused the 404)
+        var currentPath = window.location.pathname;
+
+        // Set the base path to match your GitHub Pages repository name
+        var basePath = "/gitFlower"; // Change this to your repository name
+
+        // Redirect to the correct path by adding the base path
+        if (!currentPath.startsWith(basePath)) {
+          window.location.href = basePath + currentPath;
+        }
+      })();
     </script>
   </body>
 </html>

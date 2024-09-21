@@ -7,7 +7,7 @@ import ProductRoute from "./component/ProductRoute";
 const router = createBrowserRouter(
   [
     {
-      path: "",
+      path: "/",
       element: (
         <>
           <Homepage />

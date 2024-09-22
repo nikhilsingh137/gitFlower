@@ -1,10 +1,13 @@
-import { createHashRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import Homepage from "./page/Homepage";
 import ShopSection from "./component/ShopSection";
 import ProductDetail from "./component/ProductDetail";
 import ProductRoute from "./component/ProductRoute";
+import ContactPage from "./page/ContactPage";
+import ContactGetData from "./component/ContactGetData";
+import AboutPage from "./page/AboutPage";
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: (
@@ -39,7 +42,27 @@ const router = createHashRouter([
   },
   {
     path: "/about",
-    element: <>Hello</>,
+    element: (
+      <>
+        <AboutPage />
+      </>
+    ),
+  },
+  {
+    path: "/contact",
+    element: (
+      <>
+        <ContactPage />
+      </>
+    ),
+  },
+  {
+    path: "/formData",
+    element: (
+      <>
+        <ContactGetData />
+      </>
+    ),
   },
 ]);
 

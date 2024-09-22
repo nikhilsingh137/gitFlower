@@ -1,0 +1,131 @@
+.AboutTeam {
+  display: block;
+  background: #fef7f5;
+  .wrapper {
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 50px;
+    .content {
+      display: block;
+      padding: 50px 0px;
+      .header {
+        text-align: center;
+        display: block;
+        margin-top: 50px;
+        h2 {
+          font-size: 15px;
+          text-transform: uppercase;
+          color: tomato;
+          margin: 0;
+          padding: 0;
+          font-weight: 500;
+        }
+        h3 {
+          font-size: 45px;
+          color: #111;
+          margin: 0;
+          padding: 10px 0px;
+          font-weight: 600;
+          font-family: "Times New Roman", Times, serif;
+        }
+        h4 {
+          font-size: 16px;
+          color: #111;
+          margin: 0;
+          padding: 0px;
+          font-weight: 500;
+        }
+      }
+      .mainbox {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        .detail {
+          width: 23%;
+          display: block;
+          text-align: center;
+          span {
+            display: block;
+            img {
+              width: 100%;
+              border-radius: 300px 300px 8px 8px;
+            }
+          }
+          h2 {
+            font-size: 21px;
+            color: #000;
+            font-weight: 600;
+            margin: 0;
+            padding: 12px 0px;
+            font-family: "Times New Roman", Times, serif;
+          }
+          h3 {
+            font-size: 16px;
+            color: #666;
+            font-weight: 500;
+            margin: 0;
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) and (min-width: 360px) {
+  .AboutTeam {
+    display: block;
+    padding: 0px 10px;
+    .wrapper {
+      width: 100%;
+      .content {
+        .header {
+          h3 {
+            font-size: 35px;
+          }
+          h4 {
+            font-size: 15px;
+          }
+        }
+        .mainbox {
+          flex-wrap: wrap;
+          margin-top: 0;
+          .detail {
+            width: 100%;
+            margin-top: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 551px) {
+  .AboutTeam {
+    display: block;
+    padding: 0px 10px;
+    .wrapper {
+      width: 100%;
+      .content {
+        .mainbox {
+          flex-wrap: wrap;
+          margin-top: 0;
+          .detail {
+            width: 48%;
+            margin-top: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 993px) {
+  .AboutTeam {
+    display: block;
+    padding: 0px 10px;
+    .wrapper {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,138 @@
+.Customer {
+  display: block;
+  .wrapper {
+    width: 1200px;
+    margin: auto;
+    .content {
+      display: block;
+      padding: 60px 0px;
+      margin-top: 10px;
+      .header {
+        text-align: center;
+        display: block;
+        h2 {
+          font-size: 15px;
+          color: tomato;
+          margin: 0;
+          padding: 0;
+          font-weight: 500;
+        }
+        h3 {
+          font-size: 43px;
+          color: #000;
+          margin: 0;
+          padding: 15px 0px;
+          font-weight: 600;
+          font-family: "Times New Roman", Times, serif;
+        }
+        p {
+          font-size: 16px;
+          color: #000;
+          margin: 0;
+          padding: 0px;
+          font-weight: 500;
+        }
+      }
+      .mainbox {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        .detail {
+          width: 31%;
+          display: block;
+          text-align: center;
+          .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            i {
+              font-size: 17px;
+              color: #ffb800;
+            }
+          }
+          .paragraph {
+            display: block;
+            margin-top: 15px;
+            p {
+              font-size: 16px;
+              color: #666;
+              margin: 0;
+              padding: 0;
+              font-weight: 500;
+              line-height: 25px;
+            }
+          }
+          .profile {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            justify-content: center;
+            span {
+              display: block;
+              height: 48px;
+              width: 48px;
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 50%;
+              }
+            }
+            h2 {
+              font-size: 15px;
+              color: #000;
+              font-weight: 500;
+              margin: 0;
+              padding: 5px 0px;
+              width: 110px;
+              text-align: justify;
+              span {
+                font-size: 14px;
+                color: #666;
+                font-weight: 500;
+                display: block;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 360px) {
+  .Customer {
+    display: block;
+    padding: 0px 10px;
+    .wrapper {
+      width: 100%;
+      .content {
+        .header {
+          h3 {
+            font-size: 35px;
+          }
+        }
+        .mainbox {
+          flex-wrap: wrap;
+          margin-top: 0;
+          .detail {
+            width: 100%;
+            margin-top: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 801px) {
+  .Customer {
+    display: block;
+    padding: 0px 10px;
+    .wrapper {
+      width: 100%;
+    }
+  }
+}

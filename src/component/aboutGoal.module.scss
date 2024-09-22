@@ -1,0 +1,112 @@
+.AboutGoal {
+  display: block;
+  padding: 80px 0px;
+  margin-top: 20px;
+  .wrapper {
+    width: 1200px;
+    margin: auto;
+    .content {
+      display: block;
+      .image {
+        display: block;
+        img {
+          width: 100%;
+          border-radius: 10px;
+        }
+      }
+      .mainbox {
+        display: flex;
+        justify-content: space-between;
+        .paragraph {
+          width: 48%;
+          display: block;
+          h2 {
+            font-size: 25px;
+            color-interpolation-filters: #111;
+            font-weight: 500;
+            margin: 0;
+            padding: 10px 0px;
+          }
+          p {
+            font-size: 17px;
+            color: #666;
+            font-weight: 400;
+            margin: 0;
+            padding: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 360px) {
+  .AboutGoal {
+    display: block;
+    padding: 50px 10px;
+    .wrapper {
+      width: 100%;
+      padding: 0;
+      .content {
+        .mainbox {
+          display: block;
+          .paragraph {
+            width: 100%;
+            margin-top: 20px;
+            h2 {
+              padding: 0;
+            }
+            p {
+              font-size: 17px;
+              font-weight: 500;
+              text-align: justify;
+              line-height: 27px;
+              margin: 10px 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .AboutGoal {
+    display: block;
+    padding: 50px 10px;
+    .wrapper {
+      width: 100%;
+      padding: 0;
+      .content {
+        .mainbox {
+          display: block;
+          .paragraph {
+            width: 100%;
+            margin-top: 20px;
+            h2 {
+              padding: 0;
+            }
+            p {
+              font-size: 17px;
+              font-weight: 500;
+              text-align: justify;
+              line-height: 27px;
+              margin: 10px 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 993px) {
+  .AboutGoal {
+    display: block;
+    padding: 50px 10px;
+    .wrapper {
+      width: 100%;
+      padding-bottom: 20px;
+    }
+  }
+}

@@ -129,7 +129,6 @@ app.get("/contactForm", (req, res) => {
 
 app.post("/post", (req, res) => {
   const { name, lastName, email, message } = req.body;
-
   db.collection("Post")
     .insertOne({ name, lastName, email, message })
     .then((value) => {

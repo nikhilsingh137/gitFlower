@@ -5,6 +5,7 @@ import Image from "../component/Image";
 import ItemBox from "../component/ItemBox";
 import SpecialData from "../component/SpecialData";
 import Customer from "../component/Customer";
+import AboutJourney from "../component/AboutJourney";
 
 const Homepage = () => {
   return (
@@ -16,6 +17,7 @@ const Homepage = () => {
       <SpecialData />
       <ItemBox />
       <Customer />
+      <AboutJourney />
       <SpecialData />
     </>
   );

@@ -16,8 +16,8 @@ const Homepage = () => {
       <ItemBox />
       <SpecialData />
       <ItemBox />
-      <Customer />
       <AboutJourney />
+      <Customer />
       <SpecialData />
     </>
   );

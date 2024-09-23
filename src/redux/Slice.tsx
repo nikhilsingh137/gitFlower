@@ -183,7 +183,9 @@ export const fetchAboutGoal = createAsyncThunk("fetchAboutGoal", async () => {
 export const fetchAboutJourney = createAsyncThunk(
   "fetchAboutJourney",
   async () => {
-    const aboutJourneyData = await fetch("http://localhost:4000/aboutJourney");
+    const aboutJourneyData = await fetch(
+      "https://nikhilsingh137.github.io/React_data/flower/journey.json"
+    );
     return aboutJourneyData.json();
   }
 );
